@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">FindCards</string>
+    <string name="addButton">Adding Cards</string>
+    <string name="profileButton">Going To Profile</string>
+    <string name="homeButtomn">Going back Home</string>
+    <string name="saveButton">Save</string>
 </resources>

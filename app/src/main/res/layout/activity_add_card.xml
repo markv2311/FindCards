@@ -6,4 +6,52 @@
     android:layout_height="match_parent"
     tools:context=".AddCard">
 
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="118dp"
+        android:layout_height="27dp"
+        android:gravity="center"
+        android:text="Details of Card"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="374dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="118dp"
+        android:layout_height="27dp"
+        android:gravity="center"
+        android:text="Condition of card"
+        tools:layout_editor_absoluteX="262dp"
+        tools:layout_editor_absoluteY="374dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/saveButton"
+        app:backgroundTint="#1A98C1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.904"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.879" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="118dp"
+        android:layout_height="27dp"
+        android:gravity="center"
+        android:text="Name Of Card"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <EditText
+        android:id="@+id/priceOfCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="449dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
